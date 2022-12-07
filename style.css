@@ -1,0 +1,64 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15vh;
+  margin: 3%;
+  background-image: linear-gradient(
+    55deg,
+    #60b283 0,
+    #53b38b 3.85%,
+    #45b395 7.69%,
+    #35b49e 11.54%,
+    #20b4a8 15.38%,
+    #00b4b1 19.23%,
+    #00b4ba 23.08%,
+    #00b3c2 26.92%,
+    #00b2ca 30.77%,
+    #00b1d2 34.62%,
+    #00b0d8 38.46%,
+    #16aede 42.31%,
+    #33ace2 46.15%,
+    #48aae5 50%,
+    #5ba7e7 53.85%,
+    #6ca5e8 57.69%,
+    #7ca2e7 61.54%,
+    #8c9ee5 65.38%,
+    #9a9be2 69.23%,
+    #a798de 73.08%,
+    #b394d9 76.92%,
+    #be91d2 80.77%,
+    #c78ecb 84.62%,
+    #cf8bc3 88.46%,
+    #d689bb 92.31%,
+    #dc87b2 96.15%,
+    #e186a9 100%
+  );
+  color: white;
+}
+
+input {
+  width: 25%;
+  padding: 5vh;
+  margin: 5%;
+}
+
+button {
+  margin: 3%;
+  background-color: yellowgreen;
+  padding: 2%;
+  
+}
+
+button:hover{
+    background-color: yellow;
+}
